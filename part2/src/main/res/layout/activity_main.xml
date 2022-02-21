@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="@dimen/grid_4"
+    android:layout_marginTop="@dimen/grid_4">
+
+    <TextView
+        android:id="@+id/header_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingStart="@dimen/grid_8"
+        android:paddingEnd="@dimen/grid_8"
+        android:text="@string/header_text"
+        android:textColor="@color/black"
+        android:textSize="@dimen/default_text_size"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/first_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/grid_24"
+        android:layout_marginLeft="@dimen/grid_24"
+        android:layout_marginEnd="@dimen/grid_16"
+        android:layout_marginRight="@dimen/grid_16"
+        android:hint="@string/first_name_label"
+        android:inputType="text"
+        android:textSize="@dimen/default_text_size"
+        app:layout_constraintTop_toBottomOf="@id/header_text"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <EditText
+        android:id="@+id/last_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/grid_24"
+        android:layout_marginRight="@dimen/grid_24"
+        android:hint="@string/last_name_label"
+        android:inputType="text"
+        android:textSize="@dimen/default_text_size"
+        app:layout_constraintTop_toBottomOf="@id/header_text"
+        app:layout_constraintStart_toEndOf="@id/first_name"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <EditText
+        android:id="@+id/email_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/grid_24"
+        android:layout_marginLeft="@dimen/grid_24"
+        android:layout_marginEnd="@dimen/grid_32"
+        android:layout_marginRight="@dimen/grid_32"
+        android:hint="@string/email_label"
+        android:inputType="textEmailAddress"
+        android:textSize="@dimen/default_text_size"
+        app:layout_constraintTop_toBottomOf="@id/first_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+
+    <Button
+        android:id="@+id/discount_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/grid_16"
+        android:layout_marginTop="@dimen/grid_16"
+        android:text="@string/discount_code_button"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/email_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+    <TextView
+        android:id="@+id/discount_confirmed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/default_text_size"
+        android:paddingStart="@dimen/grid_16"
+        android:paddingEnd="@dimen/grid_16"
+        android:layout_marginTop="@dimen/grid_8"
+        app:layout_constraintTop_toBottomOf="@id/discount_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Hey Andre Rizaldi Brillianto, Here is your discount code"/>
+
+    <TextView
+        android:id="@+id/discount_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="DJ3I5L5JH"
+        app:layout_constraintTop_toBottomOf="@id/discount_confirmed"
+        android:paddingStart="@dimen/grid_16"
+        android:paddingEnd="@dimen/grid_16"
+        android:layout_marginTop="@dimen/grid_8"
+        android:textSize="@dimen/grid_16"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

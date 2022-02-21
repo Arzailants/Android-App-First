@@ -9,6 +9,9 @@
         <entry key="app/src/main/res/layout/activity_rgbselect_color.xml" value="0.15520833333333334" />
         <entry key="app/src/main/res/layout/activity_text_input_edit_text.xml" value="0.21978021978021978" />
         <entry key="app/src/main/res/layout/text_input_edit_text.xml" value="0.253125" />
+        <entry key="chapter2/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1385" />
+        <entry key="chapter2/src/main/res/layout/activity_main.xml" value="0.15520833333333334" />
+        <entry key="part2/src/main/res/layout/activity_main.xml" value="0.21088612874348958" />
         <entry key="rgbapplication/src/main/res/layout/activity_rgb_application.xml" value="0.15520833333333334" />
       </map>
     </option>

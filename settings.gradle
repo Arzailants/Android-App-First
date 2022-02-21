@@ -15,3 +15,6 @@ dependencyResolutionManagement {
 rootProject.name = "Book-1-Android-App-First"
 include ':app'
 include ':rgbapplication'
+include ':app:chapter2'
+include ':chapter2'
+include ':part2'
