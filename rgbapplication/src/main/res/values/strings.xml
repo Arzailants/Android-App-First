@@ -1,19 +1,14 @@
 <resources>
-    <string name="app_name">Book-1-Android-App-First</string>
-
-    <!--MENAMBAHKAN DATA STRING-->
-    <string name="first_name_text">First name :</string>
-    <string name="last_name_text">Last name :</string>
-    <string name="enter_button_text">Enter</string>
-    <string name="welcome_to_the_app">Welcome to the app</string>
-    <string name="please_enter_a_name">Please enter a full name!</string>
+    <string name="app_name">RGBApplication</string>
 
     <!--MENAMBAHKAN DATA STRING UNTUK RGB APP-->
     <string name="color_creator_title">CREATE AN RGB COLOR</string>
     <string name="color_creator_description">Add two hexadecimal character between 0-9, A-F or a-f without the \'#\' for each channel</string>
     <string name="red_channel">Red Channel</string>
     <string name="green_channel">Green Channel</string>
+    <string name="blue_channel">Blue Channel</string>
     <string name="color_creator_button_text">Create RGB Color</string>
     <string name="color_created_display_panel">Created color display panel</string>
     <string name="invalid_characters_found">Invalid Characters Found</string>
+    <string name="digits">ABCDEFabcdef123456789</string>
 </resources>

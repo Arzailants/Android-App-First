@@ -6,8 +6,10 @@
         <entry key="app/src/main/res/drawable/button_style1.xml" value="0.1385" />
         <entry key="app/src/main/res/layout/activity_google_show.xml" value="0.11770833333333333" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2397186279296875" />
+        <entry key="app/src/main/res/layout/activity_rgbselect_color.xml" value="0.15520833333333334" />
         <entry key="app/src/main/res/layout/activity_text_input_edit_text.xml" value="0.21978021978021978" />
         <entry key="app/src/main/res/layout/text_input_edit_text.xml" value="0.253125" />
+        <entry key="rgbapplication/src/main/res/layout/activity_rgb_application.xml" value="0.15520833333333334" />
       </map>
     </option>
   </component>

@@ -14,30 +14,6 @@
         <!-- Customize your theme here. -->
     </style>
 
-    <style name="button1" parent="Theme.AppCompat.Light">
-        <item name="backgroundColor">@color/white</item>
-    </style>
-
-    <!--PENAMBAHAN STYLE-->
-    <style name="text_input_greeting" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
-        <item name="android:layout_margin">8dp</item>
-    </style>
-
-    <style name="button_greeting">
-        <item name="android:layout_margin">8dp</item>
-        <item name="android:gravity">center</item>
-    </style>
-
-    <style name="greeting_display" parent="@style/TextAppearance.MaterialComponents.Body1">
-        <item name="android:layout_margin">8dp</item>
-        <item name="android:gravity">center</item>
-        <item name="android:layout_height">40dp</item>
-    </style>
-
-    <style name="screen_layout_margin">
-        <item name="android:layout_margin">12dp</item>
-    </style>
-
     <style name="color_creator_title" parent="TextAppearance.MaterialComponents.Headline5">
         <item name="android:textStyle">bold</item>
     </style>
