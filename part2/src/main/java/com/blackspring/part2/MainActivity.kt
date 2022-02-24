@@ -26,5 +26,38 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         Log.d("TAG", "onCreate")
 
+        // Get the Discount code or an empty
+        discountCode.text = savedInstanceState?.getString(DISCOUNT_CODE, "")
+
+        // Get the discount confirmation message
+        discountConfirme.text = savedInstanceState?.getString(DISCOUNT_CONFIRMATION_MESSAGE, "")
+
+    }
+
+//    override fun onRestoreInstanceState(savedInstanceState: Bundle) {
+//        super.onRestoreInstanceState(savedInstanceState)
+//        Log.d("TAG", "onRestoreInstanceState")
+//
+//        // Get the Discount code or an empty
+//        discountCode.text = savedInstanceState?.getString(DISCOUNT_CODE, "")
+//
+//        // Get the discount confirmation message
+//        discountConfirme.text = savedInstanceState?.getString(DISCOUNT_CONFIRMATION_MESSAGE, "")
+//
+//    }
+//
+//    override fun onSaveInstanceState(outState: Bundle) {
+//        super.onSaveInstanceState(outState)
+//
+//        Log.d("TAG", "onRestoreInstanceState")
+//
+//        outState.putString(DISCOUNT_CODE, discountCode.text.toString())
+//        outState.putString(DISCOUNT_CONFIRMATION_MESSAGE, discountConfirme.text.toString())
+//
+//    }
+
+    companion object{
+        private const val DISCOUNT_CONFIRMATION_MESSAGE = "DISCOUNT_CONFIRMATION_MESSAGE"
+        private const val DISCOUNT_CODE = "DISCOUNT_CODE"
     }
 }
