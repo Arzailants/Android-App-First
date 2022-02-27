@@ -7,7 +7,7 @@
     tools:context=".ActivityOne">
 
     <ImageButton
-        android:id="@+id/button_back"
+        android:id="@+id/back_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
