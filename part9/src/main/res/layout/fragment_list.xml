@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/star_signs"
+            style="@style/StarSignTextView"
+            android:gravity="center"
+            android:textSize="24dp"
+            android:textStyle="bold"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="?android:attr/dividerVertical"/>
+
+        <TextView
+            android:id="@+id/aquarius_sign"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/aquarius"
+            style="@style/StarSignTextView"/>
+        
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="?android:attr/dividerVertical"/>
+
+        <TextView
+            android:id="@+id/pisces_sign"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pisces"
+            style="@style/StarSignTextView"/>
+        
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/dividerVertical"/>
+        
+        <TextView
+            android:id="@+id/aries_sign"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/aries"
+            style="@style/StarSignTextView"/>
+        
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/dividerVertical"/>
+        
+        <TextView
+            android:id="@+id/taurus_sign"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/taurus"
+            style="@style/StarSignTextView"/>
+        
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/dividerVertical"/>
+        
+        <TextView
+            android:id="@+id/gemini_sign"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gemini"
+            style="@style/StarSignTextView"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/dividerVertical"/>
+
+        <TextView
+            android:id="@+id/cancer_sign"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cancer"
+            style="@style/StarSignTextView"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/dividerVertical"/>
+
+        <TextView
+            android:id="@+id/leo_signs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/leo"
+            style="@style/StarSignTextView"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/dividerVertical"/>
+
+        <TextView
+            android:id="@+id/virgo_sign"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/virgo"
+            style="@style/StarSignTextView"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/dividerVertical"/>
+
+        <TextView
+            android:id="@+id/libra_sign"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/libra"
+            style="@style/StarSignTextView"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/dividerVertical"/>
+
+        <TextView
+            android:id="@+id/scorpio_sign"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/scorpio"
+            style="@style/StarSignTextView"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/dividerVertical"/>
+
+        <TextView
+            android:id="@+id/sagitarius_sign"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sagittarius"
+            style="@style/StarSignTextView"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/dividerVertical"/>
+
+        <TextView
+            android:id="@+id/capricorn_sign"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/capricorn"
+            style="@style/StarSignTextView"/>
+            
+            
+
+
+
+
+    </LinearLayout>
+</ScrollView>
