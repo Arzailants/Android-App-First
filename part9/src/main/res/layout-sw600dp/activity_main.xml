@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <fragment
-        android:id="@+id/a"
+        android:id="@+id/star_sign_list"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
@@ -20,7 +20,7 @@
         android:background="?android:attr/dividerHorizontal"/>
 
     <fragment
-        android:id="@+id/b"
+        android:id="@+id/star_sign_detail"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="2"

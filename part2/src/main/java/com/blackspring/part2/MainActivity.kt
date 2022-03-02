@@ -1,11 +1,11 @@
 package com.blackspring.part2
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -21,6 +21,8 @@ class MainActivity : AppCompatActivity() {
 
     private val discountCode: TextView get() = findViewById(R.id.discount_code)
 
+    private val LOG_TAG = MainActivity::class.java.simpleName
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -32,6 +34,8 @@ class MainActivity : AppCompatActivity() {
         // Get the discount confirmation message
         discountConfirme.text = savedInstanceState?.getString(DISCOUNT_CONFIRMATION_MESSAGE, "")
 
+
+        Log.d(LOG_TAG, "Hello World")
     }
 
 //    override fun onRestoreInstanceState(savedInstanceState: Bundle) {

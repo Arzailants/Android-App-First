@@ -11,6 +11,9 @@
         <entry key="app/src/main/res/layout/text_input_edit_text.xml" value="0.253125" />
         <entry key="chapter2/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1385" />
         <entry key="chapter2/src/main/res/layout/activity_main.xml" value="0.15520833333333334" />
+        <entry key="part10/src/main/res/layout/activity_main.xml" value="0.30776214599609375" />
+        <entry key="part10/src/main/res/layout/fragment_answer.xml" value="0.11822916666666666" />
+        <entry key="part10/src/main/res/layout/fragment_question.xml" value="0.17291666666666666" />
         <entry key="part2/src/main/res/drawable/ic_baseline_wb_sunny_24.xml" value="0.1385" />
         <entry key="part2/src/main/res/layout/activity_main.xml" value="0.21088612874348958" />
         <entry key="part3/src/main/res/layout/activity_main.xml" value="0.2158981323242188" />
